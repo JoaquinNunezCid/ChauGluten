@@ -9,13 +9,18 @@
 </head>
 <body>
     <Header>
-        <nav>
-            <div><a href="#Inicio"><img class="navbarIcon" src="./assets/sin-gluten.png" alt="ChauGlutenIcon"></a></div>
-            <ul class="nav-links">
-                <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                <li><a href="./pages/productos.html">Productos</a></li>
-                <li><a href="./pages/contacto.html">Contactanos</a></li>
-            </ul>
+        <nav class="navbar">
+            <div class="nav_logo"><a class="active" href="#Inicio">LOGO</a></div>
+            <div class="nav_items" id="_items">
+                <a href="./pages/nosotros.html">Nosotros</a>
+                <a href="./pages/productos.html">Productos</a>
+                <a href="./pages/contacto.html">Contactanos</a>
+            </div>
+            <div class="nav_toggle" id="_toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
     </Header>
     <main>
@@ -24,5 +29,6 @@
     <footer>
 
     </footer>
+    <script src="./scripts/script.js"></script>
 </body>
 </html>
